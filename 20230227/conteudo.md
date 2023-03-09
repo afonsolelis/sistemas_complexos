@@ -1,5 +1,3 @@
-27.03.2023
-
 Os sistemas complexos aumentam a complexidade com aumento do sistema?
 
 ## Modelo de Dinâmica Populacional (Euler 1748)
