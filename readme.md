@@ -8,7 +8,7 @@ Mackenzie 2023.1
 
 | Tarefa   | Data       |
 | -------- | ---------- |
-| Prova    | 03/04/2023 |
+| Prova    | 10/04/2023 |
 | Trabalho | 15/05/2023 |
 
 - Conteúdo

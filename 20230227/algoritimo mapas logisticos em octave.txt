@@ -1,0 +1,22 @@
+%mapa logístico x(t+1)=m*x(t)*(1-x(t))
+
+m=4;
+x1=0.17;
+
+x(1)=x1;
+y(1)=x1+0.001;
+t(1)=0;
+
+N=51;
+
+for i=2:N
+    x(i)=m.*x(i-1).*(1-x(i-1));
+    y(i)=m.*y(i-1).*(1-y(i-1));
+    t(i)=(i-1);
+end
+
+
+plot(t,x,'b','LineWidth',1.5,t,y,'r','LineWidth',1.5)
+ylabel('x(t)')
+xlabel('t')
+set(gca,'FontSize',18)
